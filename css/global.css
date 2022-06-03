@@ -28,7 +28,7 @@ body {
 .header__logo-link {
     color: #335576;
     text-decoration: none;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0;
 }
 
 .header__list {
