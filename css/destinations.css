@@ -1,0 +1,64 @@
+.hero-greece {
+    background-image: url(../assets/images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 2rem;
+}
+
+.hero-hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 2rem;
+}
+
+.hero-iceland {
+    background-image: url(../assets/images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 2rem;
+}
+
+.hero__heading {
+    color: white;
+    font-size: 4rem;
+    margin-left: 5.5rem;
+    padding-top: 3rem;
+    margin-top: 0;
+}
+.hero__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__cards--friday, .hero__cards--saturday, .hero__cards--sunday {
+    background: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 1.125rem;
+    margin-right: 1.125rem;
+    border-radius: .3rem;
+}
+
+.hero__subheadings {
+    text-align: center;
+    border-bottom: black 2px solid;
+}
+
+.hero__lists {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero__lists-items {
+    background: #FEFAF5;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}

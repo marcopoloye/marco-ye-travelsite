@@ -1,0 +1,84 @@
+.hero {
+    background: #FEFAF5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__text-box {
+    color: #335576;
+    margin: 5rem 0 0 5.5rem;
+}
+
+.hero__heading {
+    font-weight: 800;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero__subheading {
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+
+.hero__button {
+    text-decoration: none;
+    color: white;
+    background: #DB7A4E;
+    font-size: .9rem;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+}
+
+.hero__background {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem 5rem 5rem 0;
+}
+
+.hero__background-image {
+    width: 80%;
+    height: auto;
+}
+
+.recommendations-nav__heading {
+    color: #335576;
+    margin: 2.5rem 0 0 5.5rem;
+    font-size: 1.3rem;
+}
+
+.recommendations-nav__panel {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 11rem auto;
+    padding-bottom: 5rem;
+}
+
+.recommendations-nav__link {
+    color: orange;
+    text-decoration: none;
+    width: 15.8rem;
+    height: 23.9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendations-nav__image {
+    height: auto;
+    width: 15.8rem;
+    height: 23.9rem;
+    border-radius: .3125rem;
+    border: rgba(0,0,0,0.2) .0625rem solid;
+    box-shadow: 0 .25rem 0.25rem rgba(0,0,0,0.2);
+}
+
+.recommendations-nav__subheading {
+    padding: 0;
+    margin: 0;
+    max-width: auto;
+    text-align: right;
+    position: relative;
+    bottom: 2.75rem;
+    padding-right: 1.25rem;
+    color: white;
+    font-size: 1.3rem;
+}
